@@ -24,7 +24,7 @@ const tratamentos = [
     descricao: "Método que possibilita a aplicação direta de substâncias ativas no couro cabeludo, focando o tratamento na área afetada e minimizando efeitos colaterais."
   },
   {
-    imagem: "/lovable-uploads/718ad0be-69ca-4c1e-9170-6f45097c0156.png",
+    imagem: "/lovable-uploads/23d96741-a2b9-47e8-b97a-d5cc123f8545.png",
     nome: "Ozonioterapia e Óleos Essenciais",
     descricao: "Terapia capilar que integra Ozônio, Argiloterapia e Óleos Essenciais para revitalização do couro cabeludo e nutrição dos folículos."
   }
