@@ -12,7 +12,7 @@ const Hero = () => {
       }}
     >
       <div className="container-section relative z-10">
-        <div className="max-w-2xl animate-on-scroll">
+        <div className="max-w-2xl opacity-100">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 leading-tight drop-shadow-lg">
             TRICOMASTER <br/>
             <span className="text-tricomaster-lightgreen">MEDICINA CAPILAR</span>
