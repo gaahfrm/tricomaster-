@@ -14,7 +14,7 @@ const tratamentos = [
     descricao: "Tratamento não invasivo que estimula o crescimento e fortalecimento dos fios através da aplicação de luzes de baixa intensidade diretamente no couro cabeludo."
   },
   {
-    imagem: "/lovable-uploads/7871e8b5-6375-4071-b040-5aece7ba26f5.png",
+    imagem: "/lovable-uploads/683996cf-d947-485d-8bee-e8c730cf9e9c.png",
     nome: "MMP - Microinfusão de Medicamentos",
     descricao: "Tratamento inovador que envolve a aplicação direta de medicamentos no couro cabeludo através de pequenas agulhas, permitindo absorção eficaz."
   },
