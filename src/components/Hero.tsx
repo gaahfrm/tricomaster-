@@ -11,9 +11,6 @@ const Hero = () => {
         backgroundImage: "url('/lovable-uploads/2ae128a4-d734-43d6-af0c-742ee42a43e3.png')"
       }}
     >
-      {/* Dark overlay for better text visibility */}
-      <div className="absolute inset-0 bg-black bg-opacity-50"></div>
-      
       <div className="container-section relative z-10">
         <div className="max-w-2xl animate-on-scroll">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 leading-tight drop-shadow-lg">
