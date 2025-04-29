@@ -12,8 +12,8 @@ const QuemSomos = () => {
         <div className="flex flex-col lg:flex-row gap-12">
           <div className="lg:w-1/2">
             <img 
-              src="/lovable-uploads/337fe9a1-26ab-4490-8212-5143242f3460.png"
-              alt="Profissional da TricoMaster" 
+              src="/lovable-uploads/eaa05ead-0348-4ece-a115-06c56a3dc6af.png"
+              alt="Profissional da TricoMaster realizando tratamento" 
               className="w-full h-auto rounded-lg shadow-lg object-cover"
             />
           </div>
