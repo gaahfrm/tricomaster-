@@ -19,7 +19,7 @@ const tratamentos = [
     descricao: "Tratamento inovador que envolve a aplicação direta de medicamentos no couro cabeludo através de pequenas agulhas, permitindo absorção eficaz."
   },
   {
-    imagem: "/lovable-uploads/29537477-6d69-4878-9dc8-6e041e173e62.png",
+    imagem: "/lovable-uploads/3dd7de97-aff9-40af-88e2-a4bdef2699ca.png",
     nome: "Drug Delivery",
     descricao: "Método que possibilita a aplicação direta de substâncias ativas no couro cabeludo, focando o tratamento na área afetada e minimizando efeitos colaterais."
   },
