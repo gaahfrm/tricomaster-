@@ -4,6 +4,7 @@ import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
 import QuemSomos from '../components/QuemSomos';
 import PorqueEscolher from '../components/PorqueEscolher';
+import Diagnostico from '../components/Diagnostico';
 import Tratamentos from '../components/Tratamentos';
 import Resultados from '../components/Resultados';
 import CTA from '../components/CTA';
@@ -39,6 +40,7 @@ const Index = () => {
         <Hero />
         <QuemSomos />
         <PorqueEscolher />
+        <Diagnostico />
         <Tratamentos />
         <Resultados />
         <CTA />
