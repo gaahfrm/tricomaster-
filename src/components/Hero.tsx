@@ -8,9 +8,17 @@ const Hero = () => {
     <section 
       className="pt-28 pb-16 md:pt-36 md:pb-20 bg-cover bg-center min-h-[90vh] flex items-center relative"
       style={{
-        background: "#000"
+        backgroundImage: "url('/lovable-uploads/c089e80e-e6a2-493a-9124-1e1fa89977f8.png')",
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
       }}
     >
+      {/* Overlay com efeito blur */}
+      <div 
+        className="absolute inset-0 backdrop-blur-sm bg-black/40"
+        aria-hidden="true"
+      ></div>
+      
       <div className="container-section relative z-10">
         <div className="max-w-2xl opacity-100">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 leading-tight drop-shadow-lg">
