@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
@@ -93,7 +92,6 @@ export default {
 				'slide-in': 'slide-in 0.3s ease-out',
 			},
 			backgroundImage: {
-				'hero-pattern': "linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/lovable-uploads/8fe885d2-3067-488c-9874-f83b1789978b.png')",
 				'about-pattern': "linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('/lovable-uploads/2aff02c7-6326-4894-aeae-ff7e4e8137d6.png')",
 			}
 		}
