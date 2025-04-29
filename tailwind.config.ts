@@ -55,9 +55,12 @@ export default {
 				},
 				// Cores específicas da Tricomaster
 				tricomaster: {
-					red: '#e4001b',
-					black: '#111111',
-					gray: '#f5f5f5',
+					green: '#7ca82f',
+					darkgreen: '#5a7c20',
+					lightgreen: '#92c447',
+					lightgray: '#f5f5f5',
+					gray: '#444444',
+					darkgray: '#222222',
 				},
 			},
 			borderRadius: {
@@ -88,6 +91,10 @@ export default {
 				'accordion-up': 'accordion-up 0.2s ease-out',
 				'fade-in': 'fade-in 0.3s ease-out',
 				'slide-in': 'slide-in 0.3s ease-out',
+			},
+			backgroundImage: {
+				'hero-pattern': "linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/lovable-uploads/8fe885d2-3067-488c-9874-f83b1789978b.png')",
+				'about-pattern': "linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('/lovable-uploads/2aff02c7-6326-4894-aeae-ff7e4e8137d6.png')",
 			}
 		}
 	},

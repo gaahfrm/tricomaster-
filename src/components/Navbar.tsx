@@ -28,24 +28,28 @@ const Navbar = () => {
         <div className="flex justify-between items-center">
           <div className="flex items-center">
             <a href="/" className="flex items-center">
-              <span className="text-2xl font-bold text-tricomaster-red">TRICOMASTER</span>
+              <img 
+                src="/lovable-uploads/2070e055-e113-4f97-9ebd-c51d7c92cf59.png"
+                alt="Tricomaster Logo"
+                className="h-12 md:h-16"
+              />
             </a>
           </div>
           
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
-            <a href="#beneficios" className="text-gray-800 hover:text-tricomaster-red font-medium transition-colors">
-              Benefícios
+            <a href="#quem-somos" className="text-gray-800 hover:text-tricomaster-green font-medium transition-colors">
+              Quem Somos
             </a>
-            <a href="#depoimentos" className="text-gray-800 hover:text-tricomaster-red font-medium transition-colors">
-              Depoimentos
+            <a href="#tratamentos" className="text-gray-800 hover:text-tricomaster-green font-medium transition-colors">
+              Tratamentos
             </a>
-            <a href="#faq" className="text-gray-800 hover:text-tricomaster-red font-medium transition-colors">
-              FAQ
+            <a href="#resultados" className="text-gray-800 hover:text-tricomaster-green font-medium transition-colors">
+              Resultados
             </a>
             <Button className="btn-primary">
               <PhoneCall className="mr-2 h-4 w-4" />
-              Contato
+              Agende sua Consulta
             </Button>
           </div>
           
@@ -53,7 +57,7 @@ const Navbar = () => {
           <div className="md:hidden flex items-center">
             <button 
               onClick={() => setIsOpen(!isOpen)}
-              className="text-gray-800 hover:text-tricomaster-red"
+              className="text-gray-800 hover:text-tricomaster-green"
             >
               {isOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
@@ -65,29 +69,29 @@ const Navbar = () => {
           <div className="md:hidden absolute top-full left-0 right-0 bg-white shadow-lg py-4 px-4 animate-fade-in">
             <div className="flex flex-col space-y-4">
               <a 
-                href="#beneficios" 
-                className="text-gray-800 hover:text-tricomaster-red font-medium py-2 transition-colors"
+                href="#quem-somos" 
+                className="text-gray-800 hover:text-tricomaster-green font-medium py-2 transition-colors"
                 onClick={() => setIsOpen(false)}
               >
-                Benefícios
+                Quem Somos
               </a>
               <a 
-                href="#depoimentos" 
-                className="text-gray-800 hover:text-tricomaster-red font-medium py-2 transition-colors"
+                href="#tratamentos" 
+                className="text-gray-800 hover:text-tricomaster-green font-medium py-2 transition-colors"
                 onClick={() => setIsOpen(false)}
               >
-                Depoimentos
+                Tratamentos
               </a>
               <a 
-                href="#faq" 
-                className="text-gray-800 hover:text-tricomaster-red font-medium py-2 transition-colors"
+                href="#resultados" 
+                className="text-gray-800 hover:text-tricomaster-green font-medium py-2 transition-colors"
                 onClick={() => setIsOpen(false)}
               >
-                FAQ
+                Resultados
               </a>
               <Button className="btn-primary w-full" onClick={() => setIsOpen(false)}>
                 <PhoneCall className="mr-2 h-4 w-4" />
-                Contato
+                Agende sua Consulta
               </Button>
             </div>
           </div>

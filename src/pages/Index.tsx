@@ -2,12 +2,11 @@
 import React, { useEffect } from 'react';
 import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
-import Features from '../components/Features';
-import HowItWorks from '../components/HowItWorks';
-import Specifications from '../components/Specifications';
-import Testimonials from '../components/Testimonials';
-import FAQ from '../components/FAQ';
-import CTASection from '../components/CTASection';
+import QuemSomos from '../components/QuemSomos';
+import PorqueEscolher from '../components/PorqueEscolher';
+import Tratamentos from '../components/Tratamentos';
+import Resultados from '../components/Resultados';
+import CTA from '../components/CTA';
 import Footer from '../components/Footer';
 import WhatsAppButton from '../components/WhatsAppButton';
 
@@ -38,12 +37,11 @@ const Index = () => {
       <Navbar />
       <main>
         <Hero />
-        <Features />
-        <HowItWorks />
-        <Specifications />
-        <Testimonials />
-        <FAQ />
-        <CTASection />
+        <QuemSomos />
+        <PorqueEscolher />
+        <Tratamentos />
+        <Resultados />
+        <CTA />
       </main>
       <Footer />
       <WhatsAppButton />

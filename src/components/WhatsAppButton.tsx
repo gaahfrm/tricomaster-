@@ -4,10 +4,10 @@ import React from 'react';
 const WhatsAppButton = () => {
   return (
     <a 
-      href="https://wa.me/5511999999999?text=Olá%2C%20estou%20interessado%20no%20Tricomaster!" 
+      href="https://wa.me/5511999999999?text=Olá%2C%20estou%20interessado%20em%20agendar%20uma%20consulta%20na%20Tricomaster!" 
       target="_blank" 
       rel="noopener noreferrer"
-      className="fixed bottom-6 right-6 z-50 bg-[#25D366] text-white rounded-full p-4 shadow-lg hover:scale-110 transition-transform duration-300"
+      className="fixed bottom-6 right-6 z-50 bg-green-500 text-white rounded-full p-4 shadow-lg hover:scale-110 transition-transform duration-300"
       aria-label="Fale conosco pelo WhatsApp"
     >
       <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="currentColor">

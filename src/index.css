@@ -14,7 +14,7 @@
     --popover: 0 0% 100%;
     --popover-foreground: 0 0% 6%;
 
-    --primary: 350 100% 45%;
+    --primary: 84 57% 42%;
     --primary-foreground: 0 0% 100%;
 
     --secondary: 0 0% 96%;
@@ -23,7 +23,7 @@
     --muted: 0 0% 96%;
     --muted-foreground: 0 0% 45%;
 
-    --accent: 350 100% 45%;
+    --accent: 84 57% 42%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84% 60%;
@@ -31,7 +31,7 @@
 
     --border: 0 0% 90%;
     --input: 0 0% 90%;
-    --ring: 350 100% 45%;
+    --ring: 84 57% 42%;
 
     --radius: 0.5rem;
   }
@@ -54,11 +54,11 @@
   }
 
   .btn-primary {
-    @apply bg-tricomaster-red hover:bg-red-700 text-white font-medium px-6 py-3 rounded-md transition-all duration-200 inline-flex items-center justify-center;
+    @apply bg-tricomaster-green hover:bg-tricomaster-darkgreen text-white font-medium px-6 py-3 rounded-md transition-all duration-200 inline-flex items-center justify-center;
   }
   
   .btn-outline {
-    @apply border-2 border-tricomaster-red text-tricomaster-red hover:bg-tricomaster-red hover:text-white font-medium px-6 py-3 rounded-md transition-all duration-200 inline-flex items-center justify-center;
+    @apply border-2 border-tricomaster-green text-tricomaster-green hover:bg-tricomaster-green hover:text-white font-medium px-6 py-3 rounded-md transition-all duration-200 inline-flex items-center justify-center;
   }
   
   .heading-xl {
@@ -81,20 +81,6 @@
     @apply animate-fade-in;
   }
   
-  /* Price tag */
-  .price-tag {
-    @apply relative inline-block;
-  }
-  
-  .price-tag::after {
-    @apply content-[''] absolute w-full h-0.5 bg-red-500 top-1/2 left-0 transform -rotate-12;
-  }
-  
-  /* Pulse animation for elements */
-  .animate-pulse {
-    animation: pulse 2s infinite;
-  }
-  
   @keyframes pulse {
     0% {
       transform: scale(1);
@@ -105,6 +91,10 @@
     100% {
       transform: scale(1);
     }
+  }
+  
+  .animate-pulse {
+    animation: pulse 2s infinite;
   }
 }
 
