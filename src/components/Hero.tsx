@@ -8,7 +8,7 @@ const Hero = () => {
     <section 
       className="pt-28 pb-16 md:pt-36 md:pb-20 bg-cover bg-center min-h-[90vh] flex items-center relative"
       style={{
-        background:#000000;
+        background: "#000"
       }}
     >
       <div className="container-section relative z-10">
