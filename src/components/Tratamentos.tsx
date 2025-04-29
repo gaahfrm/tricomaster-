@@ -9,7 +9,7 @@ const tratamentos = [
     descricao: "Tratamento não cirúrgico que envolve a aplicação de substâncias nutritivas diretamente no couro cabeludo, fortalecendo os folículos e estimulando o crescimento dos fios."
   },
   {
-    imagem: "/lovable-uploads/647af8ed-1943-4534-8d11-8cec9ee49a10.png",
+    imagem: "/lovable-uploads/ef28313c-c511-4a41-963d-9c3258b282ab.png",
     nome: "Laserterapia Capilar",
     descricao: "Tratamento não invasivo que estimula o crescimento e fortalecimento dos fios através da aplicação de luzes de baixa intensidade diretamente no couro cabeludo."
   },
