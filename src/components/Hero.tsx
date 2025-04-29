@@ -8,7 +8,7 @@ const Hero = () => {
     <section 
       className="pt-28 pb-16 md:pt-36 md:pb-20 bg-cover bg-center min-h-[90vh] flex items-center relative"
       style={{
-        backgroundImage: "url('/lovable-uploads/2ae128a4-d734-43d6-af0c-742ee42a43e3.png')"
+        background:#000000;
       }}
     >
       <div className="container-section relative z-10">
