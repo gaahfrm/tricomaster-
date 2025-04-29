@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between mb-8">
           <div className="mb-8 md:mb-0">
             <img 
-              src="/lovable-uploads/2070e055-e113-4f97-9ebd-c51d7c92cf59.png"
+              src="/lovable-uploads/5de41773-311b-4410-9c41-e7cf98986a4a.png"
               alt="Tricomaster Logo"
               className="h-16 mb-4"
             />

@@ -29,7 +29,7 @@ const Navbar = () => {
           <div className="flex items-center">
             <a href="/" className="flex items-center">
               <img 
-                src="/lovable-uploads/2070e055-e113-4f97-9ebd-c51d7c92cf59.png"
+                src="/lovable-uploads/5de41773-311b-4410-9c41-e7cf98986a4a.png"
                 alt="Tricomaster Logo"
                 className="h-12 md:h-16"
               />
