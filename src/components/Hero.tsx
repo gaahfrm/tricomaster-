@@ -17,7 +17,7 @@ const Hero = () => {
             TRICOMASTER <br/>
             <span className="text-tricomaster-lightgreen">MEDICINA CAPILAR</span>
           </h1>
-          <p className="text-xl mb-6 text-white max-w-xl">
+          <p className="text-xl mb-6 text-black max-w-xl">
             RECUPERE SUA CONFIANÇA, VENÇA A CALVÍCIE E A QUEDA DE CABELO COM SOLUÇÕES QUE FAZEM A DIFERENÇA
           </p>
           
