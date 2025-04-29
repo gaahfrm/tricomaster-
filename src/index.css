@@ -80,6 +80,32 @@
   .fade-in-visible {
     @apply animate-fade-in;
   }
+  
+  /* Price tag */
+  .price-tag {
+    @apply relative inline-block;
+  }
+  
+  .price-tag::after {
+    @apply content-[''] absolute w-full h-0.5 bg-red-500 top-1/2 left-0 transform -rotate-12;
+  }
+  
+  /* Pulse animation for elements */
+  .animate-pulse {
+    animation: pulse 2s infinite;
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
 }
 
 html {

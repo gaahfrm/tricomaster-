@@ -1,17 +1,17 @@
 
 import React from 'react';
-import { CircleCheck } from 'lucide-react';
+import { CircleCheck, Zap, Layers, Watch, Volume2, Lightbulb } from 'lucide-react';
 
 const featuresList = [
   {
     title: "Tecnologia de Ponta",
     description: "Lâminas de alta precisão para um corte perfeito em qualquer tipo de cabelo.",
-    icon: <CircleCheck className="h-10 w-10 text-tricomaster-red" />
+    icon: <Layers className="h-10 w-10 text-tricomaster-red" />
   },
   {
     title: "Velocidade Incomparável",
     description: "Corte até 3x mais rápido que as máquinas convencionais do mercado.",
-    icon: <CircleCheck className="h-10 w-10 text-tricomaster-red" />
+    icon: <Zap className="h-10 w-10 text-tricomaster-red" />
   },
   {
     title: "Design Ergonômico",
@@ -21,17 +21,17 @@ const featuresList = [
   {
     title: "Maior Produtividade",
     description: "Atenda mais clientes e aumente o faturamento do seu negócio.",
-    icon: <CircleCheck className="h-10 w-10 text-tricomaster-red" />
+    icon: <Watch className="h-10 w-10 text-tricomaster-red" />
   },
   {
     title: "Silenciosa",
     description: "Motor potente e ao mesmo tempo silencioso para um ambiente mais agradável.",
-    icon: <CircleCheck className="h-10 w-10 text-tricomaster-red" />
+    icon: <Volume2 className="h-10 w-10 text-tricomaster-red" />
   },
   {
     title: "Economia de Energia",
     description: "Baixo consumo energético para redução de custos operacionais.",
-    icon: <CircleCheck className="h-10 w-10 text-tricomaster-red" />
+    icon: <Lightbulb className="h-10 w-10 text-tricomaster-red" />
   }
 ];
 
@@ -50,7 +50,8 @@ const Features = () => {
           {featuresList.map((feature, index) => (
             <div 
               key={index} 
-              className="bg-tricomaster-gray rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow duration-300"
+              className="bg-tricomaster-gray rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow duration-300 animate-on-scroll"
+              style={{ animationDelay: `${index * 100}ms` }}
             >
               <div className="mb-4">{feature.icon}</div>
               <h3 className="text-xl font-bold mb-2">{feature.title}</h3>

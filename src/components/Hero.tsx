@@ -8,7 +8,10 @@ const Hero = () => {
     <section className="pt-28 pb-16 md:pt-36 md:pb-20 bg-gradient-to-b from-tricomaster-gray to-white">
       <div className="container-section">
         <div className="flex flex-col md:flex-row items-center">
-          <div className="w-full md:w-1/2 pr-0 md:pr-8 mb-8 md:mb-0">
+          <div className="w-full md:w-1/2 pr-0 md:pr-8 mb-8 md:mb-0 animate-on-scroll">
+            <div className="inline-block bg-tricomaster-red/10 text-tricomaster-red font-semibold px-4 py-2 rounded-full mb-6">
+              Promoção por tempo limitado
+            </div>
             <h1 className="heading-xl mb-6 tracking-tight">
               Corte <span className="text-tricomaster-red">3x mais</span> cabelo em menos tempo
             </h1>
@@ -20,7 +23,8 @@ const Hero = () => {
               {[
                 'Até 3x mais rápido que as máquinas convencionais',
                 'Design ergonômico para maior conforto',
-                'Sistema de lâminas de alta durabilidade'
+                'Sistema de lâminas de alta durabilidade',
+                'Suporte técnico especializado'
               ].map((item, index) => (
                 <div key={index} className="flex items-center">
                   <Check className="h-5 w-5 text-tricomaster-red mr-2 flex-shrink-0" />
@@ -34,13 +38,13 @@ const Hero = () => {
                 Comprar agora
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
-              <Button variant="outline" className="btn-outline">
+              <a href="#beneficios" className="btn-outline">
                 Saiba mais
-              </Button>
+              </a>
             </div>
           </div>
           
-          <div className="w-full md:w-1/2">
+          <div className="w-full md:w-1/2 animate-on-scroll">
             <div className="relative">
               <div className="absolute -top-4 -left-4 w-24 h-24 bg-tricomaster-red rounded-full opacity-20 blur-xl"></div>
               <div className="absolute -bottom-8 -right-8 w-32 h-32 bg-tricomaster-red rounded-full opacity-20 blur-xl"></div>
@@ -50,8 +54,17 @@ const Hero = () => {
                   alt="Tricomaster em uso"
                   className="w-full h-auto rounded-lg object-cover"
                 />
+                <div className="absolute top-6 left-6 bg-tricomaster-red text-white py-2 px-4 rounded-full font-bold shadow-lg animate-pulse">
+                  NOVO
+                </div>
                 <div className="absolute bottom-8 right-8 bg-tricomaster-red text-white py-2 px-4 rounded-full font-bold shadow-lg">
                   30% OFF
+                </div>
+              </div>
+              <div className="absolute -bottom-4 right-8 bg-white shadow-lg rounded-lg p-3 border border-gray-100">
+                <div className="flex items-center gap-2">
+                  <div className="bg-green-500 h-3 w-3 rounded-full"></div>
+                  <span className="text-sm font-medium">Pronta entrega</span>
                 </div>
               </div>
             </div>

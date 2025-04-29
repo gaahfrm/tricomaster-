@@ -3,10 +3,13 @@ import React, { useEffect } from 'react';
 import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
 import Features from '../components/Features';
+import HowItWorks from '../components/HowItWorks';
+import Specifications from '../components/Specifications';
 import Testimonials from '../components/Testimonials';
 import FAQ from '../components/FAQ';
 import CTASection from '../components/CTASection';
 import Footer from '../components/Footer';
+import WhatsAppButton from '../components/WhatsAppButton';
 
 const Index = () => {
   // Implementação básica de animações no scroll
@@ -36,11 +39,14 @@ const Index = () => {
       <main>
         <Hero />
         <Features />
+        <HowItWorks />
+        <Specifications />
         <Testimonials />
         <FAQ />
         <CTASection />
       </main>
       <Footer />
+      <WhatsAppButton />
     </div>
   );
 };
