@@ -4,7 +4,7 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const tratamentos = [
   {
-    imagem: "/lovable-uploads/4b98f1c2-d426-47bb-b51d-4caed28ca922.png",
+    imagem: "/lovable-uploads/9dc75268-b793-4e1e-991f-f0a95bf281ad.png",
     nome: "Mesoterapia Capilar",
     descricao: "Tratamento não cirúrgico que envolve a aplicação de substâncias nutritivas diretamente no couro cabeludo, fortalecendo os folículos e estimulando o crescimento dos fios."
   },
