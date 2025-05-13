@@ -1,5 +1,7 @@
 
 import React from 'react';
+import { Button } from "@/components/ui/button";
+import { ArrowRight } from 'lucide-react';
 
 const QuemSomos = () => {
   return (
@@ -12,7 +14,7 @@ const QuemSomos = () => {
         <div className="flex flex-col lg:flex-row gap-12">
           <div className="lg:w-1/2">
             <img 
-              src="/lovable-uploads/eaa05ead-0348-4ece-a115-06c56a3dc6af.png"
+              src="/tricomaster/lovable-uploads/eaa05ead-0348-4ece-a115-06c56a3dc6af.png"
               alt="Profissional da TricoMaster realizando tratamento" 
               className="w-full h-auto rounded-lg shadow-lg object-cover"
             />
@@ -38,9 +40,17 @@ const QuemSomos = () => {
             <p className="text-gray-700">
               Confie em nós para cuidarmos da sua saúde, elevar sua autoestima e realçar a beleza do seu cabelo. Na TricoMaster, o seu bem-estar é nossa prioridade número um.
             </p>
+             <a href="https://vowdigital.com.br" target="_blank" rel="noopener noreferrer">
+            <Button className="btn-primary bg-tricomaster-green hover:bg-tricomaster-darkgreen text-lg mt-10">
+              AGENDE SUA CONSULTA
+              <ArrowRight className="ml-2 h-4 w-4" />
+            </Button>
+            </a>
           </div>
         </div>
+       
       </div>
+      
     </section>
   );
 };

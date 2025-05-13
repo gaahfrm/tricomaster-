@@ -8,10 +8,10 @@ const Footer = () => {
   return (
     <footer className="bg-gray-100 pt-12 pb-6">
       <div className="container-section">
-        <div className="flex flex-col md:flex-row justify-between mb-8">
+        <div className="flex flex-col md:flex-row justify-between mb-8 gap-4">
           <div className="mb-8 md:mb-0">
             <img 
-              src="/lovable-uploads/5de41773-311b-4410-9c41-e7cf98986a4a.png"
+              src="/tricomaster/lovable-uploads/logo.png"
               alt="Tricomaster Logo"
               className="h-16 mb-4"
             />
@@ -30,11 +30,11 @@ const Footer = () => {
                 </li>
                 <li className="flex items-center text-gray-600">
                   <Mail className="h-5 w-5 mr-3 text-tricomaster-green" />
-                  <a href="mailto:contato@tricomaster.com.br" className="hover:text-tricomaster-green transition-colors">contato@tricomaster.com.br</a>
+                  <a href="mailto:contatos@tricomaster.com.br" className="hover:text-tricomaster-green transition-colors">contatos@tricomaster.com.br</a>
                 </li>
                 <li className="flex items-start text-gray-600">
                   <MapPin className="h-5 w-5 mr-3 text-tricomaster-green flex-shrink-0 mt-1" />
-                  <span>Av. Paulista, 1000 - Bela Vista, São Paulo - SP, 01310-100</span>
+                  <span>R. Emílio Mallet, 1166 - Vila Gomes Cardim, São Paulo - SP, 03320-001</span>
                 </li>
                 <li className="flex items-start text-gray-600">
                   <Clock className="h-5 w-5 mr-3 text-tricomaster-green flex-shrink-0 mt-1" />
@@ -48,8 +48,6 @@ const Footer = () => {
                 <li><a href="#quem-somos" className="text-gray-600 hover:text-tricomaster-green transition-colors">Quem Somos</a></li>
                 <li><a href="#tratamentos" className="text-gray-600 hover:text-tricomaster-green transition-colors">Tratamentos</a></li>
                 <li><a href="#resultados" className="text-gray-600 hover:text-tricomaster-green transition-colors">Resultados</a></li>
-                <li><a href="#cta" className="text-gray-600 hover:text-tricomaster-green transition-colors">Agende sua Consulta</a></li>
-                <li><a href="#" className="text-gray-600 hover:text-tricomaster-green transition-colors">Blog</a></li>
               </ul>
             </div>
           </div>

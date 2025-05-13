@@ -4,29 +4,34 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const tratamentos = [
   {
-    imagem: "/lovable-uploads/9dc75268-b793-4e1e-991f-f0a95bf281ad.png",
+    imagem: "/tricomaster/lovable-uploads/9dc75268-b793-4e1e-991f-f0a95bf281ad.png",
     nome: "Mesoterapia Capilar",
     descricao: "Tratamento não cirúrgico que envolve a aplicação de substâncias nutritivas diretamente no couro cabeludo, fortalecendo os folículos e estimulando o crescimento dos fios."
   },
   {
-    imagem: "/lovable-uploads/ef28313c-c511-4a41-963d-9c3258b282ab.png",
+    imagem: "/tricomaster/lovable-uploads/ef28313c-c511-4a41-963d-9c3258b282ab.png",
     nome: "Laserterapia Capilar",
     descricao: "Tratamento não invasivo que estimula o crescimento e fortalecimento dos fios através da aplicação de luzes de baixa intensidade diretamente no couro cabeludo."
   },
   {
-    imagem: "/lovable-uploads/683996cf-d947-485d-8bee-e8c730cf9e9c.png",
+    imagem: "/tricomaster/lovable-uploads/683996cf-d947-485d-8bee-e8c730cf9e9c.png",
     nome: "MMP - Microinfusão de Medicamentos",
     descricao: "Tratamento inovador que envolve a aplicação direta de medicamentos no couro cabeludo através de pequenas agulhas, permitindo absorção eficaz."
   },
   {
-    imagem: "/lovable-uploads/3dd7de97-aff9-40af-88e2-a4bdef2699ca.png",
+    imagem: "/tricomaster/lovable-uploads/3dd7de97-aff9-40af-88e2-a4bdef2699ca.png",
     nome: "Drug Delivery",
     descricao: "Método que possibilita a aplicação direta de substâncias ativas no couro cabeludo, focando o tratamento na área afetada e minimizando efeitos colaterais."
   },
   {
-    imagem: "/lovable-uploads/23d96741-a2b9-47e8-b97a-d5cc123f8545.png",
+    imagem: "/tricomaster/lovable-uploads/23d96741-a2b9-47e8-b97a-d5cc123f8545.png",
     nome: "Ozonioterapia e Óleos Essenciais",
     descricao: "Terapia capilar que integra Ozônio, Argiloterapia e Óleos Essenciais para revitalização do couro cabeludo e nutrição dos folículos."
+  },
+   {
+    imagem: "/tricomaster/lovable-uploads/ba.webp",
+    nome: "Transplante Capilar",
+    descricao: "Transplante capilar é um procedimento eficaz que utiliza folículos capilares do próprio paciente para restaurar a densidade capilar, proporcionando resultados naturais e duradouros."
   }
 ];
 
@@ -66,9 +71,8 @@ const Tratamentos = () => {
           </p>
           <a 
             href="#cta" 
-            className="btn-primary inline-block"
-          >
-            Agende sua Avaliação
+            className="btn-primary inline-block">
+            AGENTE SUA CONSULTA
           </a>
         </div>
       </div>

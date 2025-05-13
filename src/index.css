@@ -101,3 +101,11 @@
 html {
   scroll-behavior: smooth;
 }
+
+
+@layer utilities {
+  .color-green {
+    @apply text-[#7DA931] hover:text-[#088708];
+    font-weight: 500;
+  }
+}

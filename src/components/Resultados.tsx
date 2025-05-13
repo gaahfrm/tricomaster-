@@ -6,7 +6,7 @@ import { Card, CardContent } from "@/components/ui/card";
 const depoimentos = [
   {
     id: 1,
-    imagem: "/lovable-uploads/4fa306bb-9b2d-42ef-808e-742244fe7a9b.png",
+    imagem: "/tricomaster/lovable-uploads/antes-depois.png",
     texto: "A equipe da TricoMaster mudou minha vida. Depois de anos tentando diversos tratamentos sem sucesso, finalmente encontrei uma solução eficaz para minha calvície.",
     nome: "Ricardo Costa",
     tempo: "Paciente há 1 ano",
@@ -14,7 +14,7 @@ const depoimentos = [
   },
   {
     id: 2,
-    imagem: "/lovable-uploads/5de41773-311b-4410-9c41-e7cf98986a4a.png",
+    imagem: "/tricomaster/lovable-uploads/antes-depois.png",
     texto: "Os resultados superaram minhas expectativas. Em apenas 4 meses, já notei uma diferença incrível na densidade e qualidade do meu cabelo.",
     nome: "Marina Silva",
     tempo: "Paciente há 6 meses",
@@ -22,7 +22,7 @@ const depoimentos = [
   },
   {
     id: 3,
-    imagem: "/lovable-uploads/2070e055-e113-4f97-9ebd-c51d7c92cf59.png",
+    imagem: "/tricomaster/lovable-uploads/antes-depois.png",
     texto: "Após apenas três sessões de tratamento, percebi uma redução significativa na queda de cabelo. Estou muito satisfeito com os resultados!",
     nome: "Paulo Mendes",
     tempo: "Paciente há 3 meses",

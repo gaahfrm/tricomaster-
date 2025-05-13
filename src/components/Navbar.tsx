@@ -29,7 +29,7 @@ const Navbar = () => {
           <div className="flex items-center">
             <a href="/" className="flex items-center">
               <img 
-                src="/lovable-uploads/5de41773-311b-4410-9c41-e7cf98986a4a.png"
+                src="/tricomaster/lovable-uploads/logo.png"
                 alt="Tricomaster Logo"
                 className="h-12 md:h-16"
               />
@@ -37,14 +37,14 @@ const Navbar = () => {
           </div>
           
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-8">
-            <a href="#quem-somos" className="text-gray-800 hover:text-tricomaster-green font-medium transition-colors">
+          <div className="hidden md:flex items-center space-x-12">
+            <a href="#quem-somos" className="color-green ">
               Quem Somos
             </a>
-            <a href="#tratamentos" className="text-gray-800 hover:text-tricomaster-green font-medium transition-colors">
+            <a href="#tratamentos" className="color-green">
               Tratamentos
             </a>
-            <a href="#resultados" className="text-gray-800 hover:text-tricomaster-green font-medium transition-colors">
+            <a href="#resultados" className="color-green">
               Resultados
             </a>
             <Button className="btn-primary">
