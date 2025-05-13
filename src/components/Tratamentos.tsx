@@ -1,5 +1,8 @@
 
 import React from 'react';
+import { Button } from "@/components/ui/button";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import { Card, CardContent } from "@/components/ui/card";
 
 const tratamentos = [
@@ -26,9 +29,9 @@ const tratamentos = [
   {
     imagem: "/tricomaster/lovable-uploads/23d96741-a2b9-47e8-b97a-d5cc123f8545.png",
     nome: "Ozonioterapia e Óleos Essenciais",
-    descricao: "Terapia capilar que integra Ozônio, Argiloterapia e Óleos Essenciais para revitalização do couro cabeludo e nutrição dos folículos."
+    descricao: "Terapia capilar que integra Ozônio, Argiloterapia e Óleos Essenciais para revitalização do couro cabeludo e nutrição dos fios."
   },
-   {
+  {
     imagem: "/tricomaster/lovable-uploads/ba.webp",
     nome: "Transplante Capilar",
     descricao: "Transplante capilar é um procedimento eficaz que utiliza folículos capilares do próprio paciente para restaurar a densidade capilar, proporcionando resultados naturais e duradouros."
@@ -45,14 +48,14 @@ const Tratamentos = () => {
             Conheça as soluções avançadas que a TricoMaster oferece para cuidar da saúde dos seus cabelos
           </p>
         </div>
-        
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {tratamentos.map((tratamento, index) => (
             <Card key={index} className="overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
               <div className="h-56 overflow-hidden">
-                <img 
-                  src={tratamento.imagem} 
-                  alt={tratamento.nome} 
+                <img
+                  src={tratamento.imagem}
+                  alt={tratamento.nome}
                   className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
                 />
               </div>
@@ -63,16 +66,17 @@ const Tratamentos = () => {
             </Card>
           ))}
         </div>
-        
+
         <div className="mt-12 text-center">
           <p className="text-lg text-gray-700 mb-6">
-            Todos os tratamentos são personalizados após uma avaliação médica completa, 
+            Todos os tratamentos são personalizados após uma avaliação médica completa,
             garantindo os melhores resultados para o seu caso específico.
           </p>
-          <a 
-            href="#cta" 
-            className="btn-primary inline-block">
-            AGENTE SUA CONSULTA
+          <a href="https://vowdigital.com.br" target="_blank" rel="noopener noreferrer">
+            <Button className="btn-primary bg-tricomaster-green hover:bg-tricomaster-darkgreen text-lg mt-10">
+              <FontAwesomeIcon icon={faWhatsapp} size='3x' color="whaite" />
+              AGENDE SUA CONSULTA
+            </Button>
           </a>
         </div>
       </div>

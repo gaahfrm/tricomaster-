@@ -18,6 +18,9 @@ export default {
 			}
 		},
 		extend: {
+			spacing: {
+				'100': '35rem', // Você pode ajustar para o valor que precisar
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',

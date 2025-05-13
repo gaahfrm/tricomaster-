@@ -1,5 +1,8 @@
 
 import React from 'react';
+import { Button } from "@/components/ui/button";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 
 const Diagnostico = () => {
   return (
@@ -29,8 +32,11 @@ const Diagnostico = () => {
             </p>
 
             <div className="pt-4">
-              <a href="#contato" className="btn-primary bg-tricomaster-green hover:bg-tricomaster-darkgreen">
-                AGENDE SUA CONSULTA
+              <a href="https://vowdigital.com.br" target="_blank" rel="noopener noreferrer">
+                <Button className="btn-primary bg-tricomaster-green hover:bg-tricomaster-darkgreen text-lg mt-10">
+                  <FontAwesomeIcon icon={faWhatsapp} size='3x' color="whaite" />
+                  AGENDE SUA CONSULTA
+                </Button>
               </a>
             </div>
           </div>

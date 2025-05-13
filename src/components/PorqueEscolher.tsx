@@ -59,7 +59,7 @@ const PorqueEscolher = () => {
             </div>
             <div className="hidden md:block h-16 w-px bg-white/30"></div>
             <div className="text-center">
-              <div className="text-4xl font-bold mb-2">5.000+</div>
+              <div className="text-4xl font-bold mb-2">9.000+</div>
               <p className="text-lg">Pacientes atendidos</p>
             </div>
             <div className="hidden md:block h-16 w-px bg-white/30"></div>
