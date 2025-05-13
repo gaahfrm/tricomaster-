@@ -72,12 +72,14 @@ const Tratamentos = () => {
             Todos os tratamentos são personalizados após uma avaliação médica completa,
             garantindo os melhores resultados para o seu caso específico.
           </p>
-          <a href="https://vowdigital.com.br" target="_blank" rel="noopener noreferrer">
-            <Button className="btn-primary bg-tricomaster-green hover:bg-tricomaster-darkgreen text-lg mt-10">
-              <FontAwesomeIcon icon={faWhatsapp} size='3x' color="whaite" />
-              AGENDE SUA CONSULTA
-            </Button>
-          </a>
+          <div className="flex justify-center"> {/* Centralizado no mobile */}
+            <a href="https://api.whatsapp.com/send?phone=5511930731230&text=Ol%C3%A1%20tenho%20uma%20duvida" target="_blank" rel="noopener noreferrer">
+              <Button className="btn-primary bg-tricomaster-green hover:bg-tricomaster-darkgreen text-lg mt-10">
+                <FontAwesomeIcon icon={faWhatsapp} size='3x' color="whaite" />
+                AGENDE SUA CONSULTA
+              </Button>
+            </a>
+          </div>
         </div>
       </div>
     </section>

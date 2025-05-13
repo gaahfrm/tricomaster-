@@ -31,8 +31,8 @@ const Diagnostico = () => {
               A Tricoscopia Digital é o primeiro passo para um tratamento eficaz contra a calvície e queda de cabelo. Não se baseie em soluções genéricas que prometem resultados milagrosos - confie em uma análise científica e personalizada.
             </p>
 
-            <div className="pt-4">
-              <a href="https://vowdigital.com.br" target="_blank" rel="noopener noreferrer">
+            <div className="flex justify-center lg:justify-start"> {/* Centralizado no mobile */}
+              <a href="https://api.whatsapp.com/send?phone=5511930731230&text=Ol%C3%A1%20tenho%20uma%20duvida" target="_blank" rel="noopener noreferrer">
                 <Button className="btn-primary bg-tricomaster-green hover:bg-tricomaster-darkgreen text-lg mt-10">
                   <FontAwesomeIcon icon={faWhatsapp} size='3x' color="whaite" />
                   AGENDE SUA CONSULTA

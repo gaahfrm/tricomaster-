@@ -2,39 +2,34 @@ import React from 'react';
 import { Button } from "@/components/ui/button";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight, Bold } from 'lucide-react';
 
 const Hero = () => {
   return (
     <section
       className="flex flex-col md:flex-row" // Alterado para coluna no mobile
       style={{
-        paddingTop: "200px",
+        paddingTop: "150px",
         paddingLeft: "0px", // Sem padding no mobile
         backgroundImage: "linear-gradient(to bottom, rgb(212 212 212),#7CA82F)", // Alterado para degradê
         backgroundSize: 'cover',
         backgroundPosition: 'bottom',
       }}
     >
-      <div className="container-section relative z-10 flex flex-col items-start justify-center gap-10 w-full md:w-1/2 md:pl-[80px]"> {/* Adicionado padding-left apenas no desktop */}
-        <div className="max-w-25xl text-left opacity-100">
-          <h1 className="text-4xl md:text-5xl lg:text-5xl font-bold text-white mb-4 leading-tight drop-shadow-lg">
+      <div className="container-section relative z-10 flex flex-col  justify-center gap-10 "> {/* Adicionado padding-left apenas no desktop */}
+        <div className="">
+          <h1 className="text-4xl lg:text-5xl font-500 text-white mb-4 ">
             TRICOMASTER <br />
-            <span
-              className=""
-              style={{
-                fontSize: '35px', // Reduzido para 35px no mobile
-              }}
-            >
+            <span className="text-4xl md:text-5xl font-bold"> {/* Ajustado para igualar ao desktop */}
               MEDICINA CAPILAR
             </span>
           </h1>
-          <p className="text-xl mb-6 text-white max-w-xl font-medium drop-shadow-lg">
+          <p className="mb-6 text-white max-w-xl font-medium drop-shadow-lg">
             RECUPERE SUA CONFIANÇA, VENÇA A CALVÍCIE E A QUEDA DE CABELO COM SOLUÇÕES QUE FAZEM A DIFERENÇA
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-start">
-            <a href="https://vowdigital.com.br" target="_blank" rel="noopener noreferrer">
+            <a href="https://api.whatsapp.com/send?phone=5511930731230&text=Ol%C3%A1%20tenho%20uma%20duvida" target="_blank" rel="noopener noreferrer">
               <Button className="btn-primary bg-tricomaster-green hover:bg-tricomaster-darkgreen text-lmd ">
                 <FontAwesomeIcon icon={faWhatsapp} size="3x" color="white" />
                 AGENDE SUA CONSULTA
