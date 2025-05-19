@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -16,22 +15,19 @@ const Diagnostico = () => {
         </div>
 
         <div className="flex flex-col lg:flex-row gap-12 items-center">
-          <div className="lg:w-1/2 space-y-6 order-2 lg:order-1">
+          <div className="lg:w-1/2 space-y-6 order-2 lg:order-1 text-center lg:text-left">
             <h3 className="text-2xl font-bold text-tricomaster-gray mb-4">
               Tecnologia avançada para diagnóstico preciso: TRICOSCOPIA DIGITAL
             </h3>
-
             <p className="text-gray-700">
               Na TricoMaster, utilizamos equipamentos de última geração para realizar a Tricoscopia Digital, uma análise microscópica que examina detalhadamente a saúde do seu couro cabeludo e fios de cabelo. Essa tecnologia avançada nos permite identificar com precisão as causas da sua queda de cabelo.
 
               Durante o diagnóstico, nossos especialistas avaliam a densidade capilar, a espessura dos fios, a saúde do folículo e as condições do couro cabeludo. Com essas informações, podemos desenvolver um plano de tratamento personalizado que ataca diretamente a causa do seu problema.
             </p>
-
             <p className="text-gray-700">
               A Tricoscopia Digital é o primeiro passo para um tratamento eficaz contra a calvície e queda de cabelo. Não se baseie em soluções genéricas que prometem resultados milagrosos - confie em uma análise científica e personalizada.
             </p>
-
-            <div className="flex justify-center lg:justify-start"> {/* Centralizado no mobile */}
+            <div className="flex justify-center lg:justify-start">
               <a href="https://api.whatsapp.com/send?phone=5511930731230&text=Ol%C3%A1%20tenho%20uma%20duvida" target="_blank" rel="noopener noreferrer">
                 <Button className="btn-primary bg-tricomaster-green hover:bg-tricomaster-darkgreen text-lg mt-10">
                   <FontAwesomeIcon icon={faWhatsapp} size='3x' color="whaite" />

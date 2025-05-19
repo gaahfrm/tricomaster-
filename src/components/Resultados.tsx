@@ -5,8 +5,8 @@ import { Card, CardContent } from "@/components/ui/card";
 const depoimentos = [
 	{
 		id: 1,
-		imagemAntes: "tricomaster/lovable-uploads/Antes-1.webp",
-		imagemDepois: "tricomaster/lovable-uploads/Depois-1.webp",
+		imagemAntes: "/tricomaster/lovable-uploads/Antes-1.webp",
+		imagemDepois: "/tricomaster/lovable-uploads/Depois-1.webp",
 		texto: "A equipe da TricoMaster mudou minha vida. Depois de anos tentando diversos tratamentos sem sucesso.",
 		nome: "Paciente 1",
 		tempo: "Paciente há 1 ano",
@@ -14,8 +14,8 @@ const depoimentos = [
 	},
 	{
 		id: 2,
-		imagemAntes: "tricomaster/lovable-uploads/Antes-2.webp",
-		imagemDepois: "tricomaster/lovable-uploads/Depois-2.webp",
+		imagemAntes: "/tricomaster/lovable-uploads/Antes-2.webp",
+		imagemDepois: "/tricomaster/lovable-uploads/Depois-2.webp",
 		texto: "A equipe da TricoMaster mudou minha vida. Depois de anos tentando diversos tratamentos sem sucesso.",
 		nome: "Paciente 2",
 		tempo: "Paciente há 6 meses",
@@ -23,8 +23,8 @@ const depoimentos = [
 	},
 	{
 		id: 3,
-		imagemAntes: "tricomaster/lovable-uploads/Antes-3.webp",
-		imagemDepois: "tricomaster/lovable-uploads/Depois-3.webp",
+		imagemAntes: "/tricomaster/lovable-uploads/Antes-3.webp",
+		imagemDepois: "/tricomaster/lovable-uploads/Depois-3.webp",
 		texto: "Após apenas três sessões de tratamento, percebi uma redução significativa na queda de cabelo. Estou muito satisfeito com os resultados!",
 		nome: "Anderson",
 		tempo: "Paciente há 1 ano",
@@ -32,8 +32,8 @@ const depoimentos = [
 	},
 	{
 		id: 4,
-		imagemAntes: "tricomaster/lovable-uploads/Antes-4.webp",
-		imagemDepois: "tricomaster/lovable-uploads/Depois-4.webp",
+		imagemAntes: "/tricomaster/lovable-uploads/Antes-4.webp",
+		imagemDepois: "/tricomaster/lovable-uploads/Depois-4.webp",
 		texto: "Após apenas três sessões de tratamento, percebi uma redução significativa na queda de cabelo. Estou muito satisfeito com os resultados!",
 		nome: "Paciente 3",
 		tempo: "Paciente há 1 ano",
@@ -41,8 +41,8 @@ const depoimentos = [
 	},
 	{
 		id: 5,
-		imagemAntes: "tricomaster/lovable-uploads/Antes-5.webp",
-		imagemDepois: "tricomaster/lovable-uploads/Depois-5.webp",
+		imagemAntes: "/tricomaster/lovable-uploads/Antes-5.webp",
+		imagemDepois: "/tricomaster/lovable-uploads/Depois-5.webp",
 		texto: "Após apenas três sessões de tratamento, percebi uma redução significativa na queda de cabelo. Estou muito satisfeito com os resultados!",
 		nome: "Paciente ",
 		tempo: "Paciente há 1 ano",
@@ -50,8 +50,8 @@ const depoimentos = [
 	},
 	{
 		id: 6,
-		imagemAntes: "tricomaster/lovable-uploads/Antes-6.webp",
-		imagemDepois: "tricomaster/lovable-uploads/Depois-6.webp",
+		imagemAntes: "/tricomaster/lovable-uploads/Antes-6.webp",
+		imagemDepois: "/tricomaster/lovable-uploads/Depois-6.webp",
 		texto: "Após apenas três sessões de tratamento, percebi uma redução significativa na queda de cabelo. Estou muito satisfeito com os resultados!",
 		nome: "Paciente ",
 		tempo: "Paciente há 1 ano",
@@ -115,12 +115,16 @@ const Resultados = () => {
 							{/* Botões de navegação do carrossel */}
 							<div className="absolute top-1/2 left-4 transform -translate-y-1/2 lg:hidden">
 								<button onClick={anteriorDepoimento} className="bg-gray-200 p-2 rounded-full shadow-md">
-									&lt;
+									<svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="3" className="h-6 w-6">
+										<path d="M15 19l-7-7 7-7"></path>
+									</svg>
 								</button>
 							</div>
 							<div className="absolute top-1/2 right-4 transform -translate-y-1/2 lg:hidden">
 								<button onClick={proximoDepoimento} className="bg-gray-200 p-2 rounded-full shadow-md">
-									&gt;
+									<svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="3" className="h-6 w-6">
+										<path d="M9 5l7 7-7 7"></path>
+									</svg>
 								</button>
 							</div>
 						</div>
