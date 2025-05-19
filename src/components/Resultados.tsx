@@ -5,51 +5,57 @@ import { Card, CardContent } from "@/components/ui/card";
 const depoimentos = [
 	{
 		id: 1,
-		imagem: "/tricomaster/lovable-uploads/antes-depois.png",
-		texto: "A equipe da TricoMaster mudou minha vida. Depois de anos tentando diversos tratamentos sem sucesso, finalmente encontrei uma solução eficaz para minha calvície.",
-		nome: "Ricardo Costa",
+		imagemAntes: "tricomaster/lovable-uploads/Antes-1.webp",
+		imagemDepois: "tricomaster/lovable-uploads/Depois-1.webp",
+		texto: "A equipe da TricoMaster mudou minha vida. Depois de anos tentando diversos tratamentos sem sucesso.",
+		nome: "Paciente 1",
 		tempo: "Paciente há 1 ano",
-		iniciais: "RC"
+		iniciais: "PC"
 	},
 	{
 		id: 2,
-		imagem: "/tricomaster/lovable-uploads/antes-depois.png",
-		texto: "Os resultados superaram minhas expectativas. Em apenas 4 meses, já notei uma diferença incrível na densidade e qualidade do meu cabelo.",
-		nome: "Marina Silva",
+		imagemAntes: "tricomaster/lovable-uploads/Antes-2.webp",
+		imagemDepois: "tricomaster/lovable-uploads/Depois-2.webp",
+		texto: "A equipe da TricoMaster mudou minha vida. Depois de anos tentando diversos tratamentos sem sucesso.",
+		nome: "Paciente 2",
 		tempo: "Paciente há 6 meses",
-		iniciais: "MS"
+		iniciais: "PC"
 	},
 	{
 		id: 3,
-		imagem: "/tricomaster/lovable-uploads/antes-depois.png",
+		imagemAntes: "tricomaster/lovable-uploads/Antes-3.webp",
+		imagemDepois: "tricomaster/lovable-uploads/Depois-3.webp",
 		texto: "Após apenas três sessões de tratamento, percebi uma redução significativa na queda de cabelo. Estou muito satisfeito com os resultados!",
-		nome: "Paulo Mendes",
-		tempo: "Paciente há 3 meses",
-		iniciais: "PM"
+		nome: "Anderson",
+		tempo: "Paciente há 1 ano",
+		iniciais: "AD"
 	},
 	{
-		id: 3,
-		imagem: "/tricomaster/lovable-uploads/antes-depois.png",
+		id: 4,
+		imagemAntes: "tricomaster/lovable-uploads/Antes-4.webp",
+		imagemDepois: "tricomaster/lovable-uploads/Depois-4.webp",
 		texto: "Após apenas três sessões de tratamento, percebi uma redução significativa na queda de cabelo. Estou muito satisfeito com os resultados!",
-		nome: "Paulo Mendes",
-		tempo: "Paciente há 3 meses",
-		iniciais: "PM"
+		nome: "Paciente 3",
+		tempo: "Paciente há 1 ano",
+		iniciais: "PC"
 	},
 	{
-		id: 3,
-		imagem: "/tricomaster/lovable-uploads/antes-depois.png",
+		id: 5,
+		imagemAntes: "tricomaster/lovable-uploads/Antes-5.webp",
+		imagemDepois: "tricomaster/lovable-uploads/Depois-5.webp",
 		texto: "Após apenas três sessões de tratamento, percebi uma redução significativa na queda de cabelo. Estou muito satisfeito com os resultados!",
-		nome: "Paulo Mendes",
-		tempo: "Paciente há 3 meses",
-		iniciais: "PM"
+		nome: "Paciente ",
+		tempo: "Paciente há 1 ano",
+		iniciais: "PC"
 	},
 	{
-		id: 2,
-		imagem: "/tricomaster/lovable-uploads/antes-depois.png",
-		texto: "Os resultados superaram minhas expectativas. Em apenas 4 meses, já notei uma diferença incrível na densidade e qualidade do meu cabelo.",
-		nome: "Marina Silva",
-		tempo: "Paciente há 6 meses",
-		iniciais: "MS"
+		id: 6,
+		imagemAntes: "tricomaster/lovable-uploads/Antes-6.webp",
+		imagemDepois: "tricomaster/lovable-uploads/Depois-6.webp",
+		texto: "Após apenas três sessões de tratamento, percebi uma redução significativa na queda de cabelo. Estou muito satisfeito com os resultados!",
+		nome: "Paciente ",
+		tempo: "Paciente há 1 ano",
+		iniciais: "PC"
 	}
 ];
 
@@ -83,13 +89,26 @@ const Resultados = () => {
 					{/* Carrossel no mobile */}
 					<div className="lg:w-2/3">
 						<div className="bg-white p-6 rounded-xl shadow-lg transition-all duration-300 relative">
-							<img
-								src={imagemAtual.imagem}
-								alt="Resultado do tratamento capilar"
-								className="w-full h-auto rounded-lg"
-							/>
+							<div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+								<div className="flex-1 flex flex-col items-center">
+									<span className="text-gray-500 font-semibold mb-2">Antes</span>
+									<img
+										src={imagemAtual.imagemAntes}
+										alt="Antes do tratamento"
+										className="w-full max-w-xs h-auto rounded-lg object-cover border"
+									/>
+								</div>
+								<div className="flex-1 flex flex-col items-center">
+									<span className="text-gray-500 font-semibold mb-2">Depois</span>
+									<img
+										src={imagemAtual.imagemDepois}
+										alt="Depois do tratamento"
+										className="w-full max-w-xs h-auto rounded-lg object-cover border"
+									/>
+								</div>
+							</div>
 							<div className="mt-6 text-center">
-								<p className="text-gray-600 italic mb-4">"{imagemAtual.texto}"</p>
+								{/*<p className="text-gray-600 italic mb-4">"{imagemAtual.texto}"</p>*/}
 								<h4 className="text-lg font-medium">{imagemAtual.nome}</h4>
 								<p className="text-sm text-gray-500">{imagemAtual.tempo}</p>
 							</div>
@@ -116,7 +135,7 @@ const Resultados = () => {
 								onClick={() => setImagemAtual(depoimento)}
 							>
 								<CardContent className="p-0">
-									<p className="text-md text-gray-700 italic mb-2">"{depoimento.texto}"</p>
+									{/*<p className="text-md text-gray-700 italic mb-2">"{depoimento.texto}"</p>*/}
 									<div className="flex items-center">
 										<div className={`w-10 h-10 rounded-full ${imagemAtual.id === depoimento.id ? 'bg-tricomaster-green' : 'bg-tricomaster-gray'} flex items-center justify-center text-white font-bold transition-colors duration-200`}>
 											{depoimento.iniciais}

@@ -7,9 +7,9 @@ const Footer = () => {
   return (
     <footer className="bg-gray-100 pt-12 pb-6">
       <div className="container-section">
-        <div className="grid grid-cols-7 gap-12 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-7 gap-12 mb-8"> {/* Ajustado para 1 coluna no mobile, 7 no desktop */}
           {/* Logo e texto */}
-          <div className="col-span-2">
+          <div className="col-span-1 md:col-span-2">
             <img
               src="/tricomaster/lovable-uploads/logo.png"
               alt="Tricomaster Logo"
@@ -31,7 +31,7 @@ const Footer = () => {
           </div>
 
           {/* Primeiro mapa */}
-          <div className="col-span-2">
+          <div className="col-span-1 md:col-span-2">
             <h4 className="font-bold mb-4 text-gray-900">Unidade Tatuapé</h4>
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.621461920248!2d-46.56495042378864!3d-23.54611356103385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5e8dca89f591%3A0x5bd70f52606af0fa!2sTricomaster%20Medicina%20Capilar!5e0!3m2!1spt-BR!2sbr!4v1747162882572!5m2!1spt-BR!2sbr"
@@ -49,7 +49,7 @@ const Footer = () => {
           </div>
 
           {/* Segundo mapa */}
-          <div className="col-span-2">
+          <div className="col-span-1 md:col-span-2">
             <h4 className="font-bold mb-4 text-gray-900">Unidade Santana</h4>
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.922814993771!2d-46.62658672378994!3d-23.499289459316408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef71018d4d70b%3A0x9e8e73c770edc160!2sTricomaster%20Medicina%20Capilar%20%7C%20Tricologista%20em%20Santana!5e0!3m2!1spt-BR!2sbr!4v1747165561754!5m2!1spt-BR!2sbr"
