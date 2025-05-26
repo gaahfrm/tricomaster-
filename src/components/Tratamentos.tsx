@@ -7,34 +7,34 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const tratamentos = [
   {
-    imagem: "/tricomaster/lovable-uploads/9dc75268-b793-4e1e-991f-f0a95bf281ad.png",
+    imagem: "/tricomaster/lovable-uploads/Tratamento-mesoterapia-capilar.webp",
     nome: "Mesoterapia Capilar",
-    descricao: "Tratamento não cirúrgico que envolve a aplicação de substâncias nutritivas diretamente no couro cabeludo, fortalecendo os folículos e estimulando o crescimento dos fios."
+    descricao: "A mesoterapia capilar é um tratamento não cirúrgico que envolve aplicação de substâncias nutritivas diretamente no couro cabeludo, que estimula o crescimento de novos fios, fortalece, e melhora a saúde do couro cabeludo, indicado na queda de cabelo, calvície, alopecias e afinamento dos fios."
   },
   {
-    imagem: "/tricomaster/lovable-uploads/ef28313c-c511-4a41-963d-9c3258b282ab.png",
+    imagem: "/tricomaster/lovable-uploads/Tratamento-laserterapia-capilar.webp",
     nome: "Laserterapia Capilar",
-    descricao: "Tratamento não invasivo que estimula o crescimento e fortalecimento dos fios através da aplicação de luzes de baixa intensidade diretamente no couro cabeludo."
+    descricao: "A Laserterapia capilar é um tratamento não invasivo, indolor, realizado através de  luzes de baixa intensidade para estimular o crescimento dos fios, melhorar a circulação no couro cabeludo e fortalecer os fios. É indicada para queda de cabelo, calvície, alopecias, psoríase e dermatite seborreica."
   },
   {
-    imagem: "/tricomaster/lovable-uploads/683996cf-d947-485d-8bee-e8c730cf9e9c.png",
+    imagem: "/tricomaster/lovable-uploads/Tratamento-mmp.webp",
     nome: "MMP - Microinfusão de Medicamentos",
-    descricao: "Tratamento inovador que envolve a aplicação direta de medicamentos no couro cabeludo através de pequenas agulhas, permitindo absorção eficaz."
+    descricao: "O método MMP Capilar é uma técnica que aplica medicamentos diretamente no couro cabeludo por meio de microagulhas, estimulando o crescimento e melhorando a densidade dos fios. Indicado no pós transplante capilar, queda de cabelo, afinamento, calvície e alopecias. É uma opção não invasiva e eficaz para melhora da saúde capilar."
   },
   {
     imagem: "/tricomaster/lovable-uploads/3dd7de97-aff9-40af-88e2-a4bdef2699ca.png",
-    nome: "Drug Delivery",
-    descricao: "Método que possibilita a aplicação direta de substâncias ativas no couro cabeludo, focando o tratamento na área afetada e minimizando efeitos colaterais."
+    nome: "Drug Delivery Digital",
+    descricao: "Tecnologia inovadora que permite a aplicação precisa de ativos no couro cabeludo através de microagulhas, com controle digital da profundidade e velocidade, garantindo 100% de aproveitamento das medicações.Procedimento indolor e indicado para queda de cabelo, calvície e alopecias, o D& D estimula o crescimento capilar e melhora a densidade dos fios."
   },
   {
     imagem: "/tricomaster/lovable-uploads/23d96741-a2b9-47e8-b97a-d5cc123f8545.png",
-    nome: "Ozonioterapia e Óleos Essenciais",
-    descricao: "Terapia capilar que integra Ozônio, Argiloterapia e Óleos Essenciais para revitalização do couro cabeludo e nutrição dos fios."
-  },
+    nome: "Ozonioterapia e Terapias Capilares",
+    descricao: "A Ozonioterapia capilar é uma técnica utilizada para oxigenar o couro cabeludo, ativar a circulação e combater inflamações, promovendo um couro cabeludo saudável para o crescimento dos fios. Combinada com outras terapias capilares personalizadas, ajuda a tratar queda de cabelo, oleosidade, caspa, dermatite seborreica, psoriase, calvície e alopecias, fortalecendo e nutrindo a fibra capilar. Resultados visíveis com tratamentos naturais, eficazes e seguros."
+},
   {
     imagem: "/tricomaster/lovable-uploads/ba.webp",
     nome: "Transplante Capilar",
-    descricao: "Transplante capilar é um procedimento eficaz que utiliza folículos capilares do próprio paciente para restaurar a densidade capilar, proporcionando resultados naturais e duradouros."
+    descricao: "Procedimento cirúrgico que transplanta unidades foliculares da área doadora para regiões calvas. Técnica moderna (FUE), minimamente invasiva, com resultados naturais e permanentes. Indicado para calvície, alopecias e falhas capilares. Recupere o seu cabelo com segurança e eficácia."
   }
 ];
 

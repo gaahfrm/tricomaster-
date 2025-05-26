@@ -38,7 +38,6 @@ const Footer = () => {
               width="100%"
               height="200"
               style={{ border: 0 }}
-              allowFullScreen=""
               loading="lazy"
               title="Mapa 1"
             ></iframe>
@@ -56,7 +55,6 @@ const Footer = () => {
               width="100%"
               height="200"
               style={{ border: 0 }}
-              allowFullScreen=""
               loading="lazy"
               title="Mapa 2"
             ></iframe>

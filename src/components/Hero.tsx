@@ -6,18 +6,14 @@ import { ArrowRight, Bold } from 'lucide-react';
 
 const Hero = () => {
   return (
-    <section
-      className="flex flex-col md:flex-row" // Alterado para coluna no mobile
+    <section className="flex flex-col md:flex-row" // Alterado para coluna no mobile
       style={{
         paddingTop: "150px",
-        paddingLeft: "0px", // Sem padding no mobile
-        backgroundImage: "linear-gradient(to bottom, rgb(212 212 212),#7CA82F)", // Alterado para degradê
-        backgroundSize: 'cover',
-        backgroundPosition: 'bottom',
+        backgroundImage: "linear-gradient(to bottom, rgb(212 212 212),#7CA82F)", // Alterado para degradê  
       }}
     >
       <div className="container-section relative z-10 flex flex-col justify-center gap-10 text-center md:text-left">
-        <div className="">
+        <div>
           <h1 className="text-4xl lg:text-5xl font-500 text-white mb-4 ">
             TRICOMASTER <br />
             <span className="text-4xl md:text-5xl font-bold">

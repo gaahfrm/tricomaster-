@@ -81,7 +81,7 @@ const Resultados = () => {
 				<div className="text-center mb-12">
 					<h2 className="text-3xl md:text-4xl font-bold mb-4 text-tricomaster-green">RESULTADOS COMPROVADOS</h2>
 					<p className="text-lg text-gray-600 max-w-3xl mx-auto">
-						Confira a transformação na vida dos nossos pacientes
+						Resultados reais que vão além da estética. Descubra como nossos pacientes recuperaram a autoestima e transformaram suas vidas!
 					</p>
 				</div>
 
@@ -139,7 +139,7 @@ const Resultados = () => {
 								onClick={() => setImagemAtual(depoimento)}
 							>
 								<CardContent className="p-0">
-									{/*<p className="text-md text-gray-700 italic mb-2">"{depoimento.texto}"</p>*/}
+									<p className="text-md text-gray-700 italic mb-2">"{depoimento.texto}"</p>
 									<div className="flex items-center">
 										<div className={`w-10 h-10 rounded-full ${imagemAtual.id === depoimento.id ? 'bg-tricomaster-green' : 'bg-tricomaster-gray'} flex items-center justify-center text-white font-bold transition-colors duration-200`}>
 											{depoimento.iniciais}

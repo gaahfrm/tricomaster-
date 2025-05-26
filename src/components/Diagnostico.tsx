@@ -8,9 +8,9 @@ const Diagnostico = () => {
     <section className="py-16 md:py-24 bg-gray-50">
       <div className="container-section">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-tricomaster-green">DIAGNÓSTICO CAPILAR</h2>
+          <h2 className="text-3xl font-bold md:text-4xl mb-4 text-tricomaster-green">DIAGNÓSTICO CAPILAR</h2>
           <p className="text-xl text-tricomaster-gray max-w-3xl mx-auto">
-            Análise completa para entender a saúde do seu couro cabeludo e identificar as causas da sua queda de cabelo
+            O diagnóstico capilar é o primeiro passo para entender a saúde do seu cabelo e encontrar a melhor solução para você.
           </p>
         </div>
 
@@ -21,7 +21,6 @@ const Diagnostico = () => {
             </h3>
             <p className="text-gray-700">
               Na TricoMaster, utilizamos equipamentos de última geração para realizar a Tricoscopia Digital, uma análise microscópica que examina detalhadamente a saúde do seu couro cabeludo e fios de cabelo. Essa tecnologia avançada nos permite identificar com precisão as causas da sua queda de cabelo.
-
               Durante o diagnóstico, nossos especialistas avaliam a densidade capilar, a espessura dos fios, a saúde do folículo e as condições do couro cabeludo. Com essas informações, podemos desenvolver um plano de tratamento personalizado que ataca diretamente a causa do seu problema.
             </p>
             <p className="text-gray-700">
@@ -44,8 +43,6 @@ const Diagnostico = () => {
                 alt="Especialista realizando diagnóstico capilar com equipamento avançado"
                 className="w-full h-auto rounded-lg shadow-lg object-cover"
               />
-              <div className="absolute -bottom-4 -left-4 w-24 h-24 bg-tricomaster-lightgreen rounded-full -z-10"></div>
-              <div className="absolute -top-4 -right-4 w-16 h-16 bg-tricomaster-green rounded-full -z-10"></div>
             </div>
           </div>
         </div>

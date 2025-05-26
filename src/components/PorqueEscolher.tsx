@@ -13,12 +13,12 @@ const PorqueEscolher = () => {
     {
       icon: <Star className="h-12 w-12 text-tricomaster-green mb-4" />,
       titulo: "Tecnologia Avançada",
-      texto: "Equipamentos de ponta para diagnósticos precisos e tratamentos eficazes personalizados."
+      texto: "Equipamentos de ponta para diagnósticos precisos e tratamentos eficazes."
     },
     {
       icon: <Users className="h-12 w-12 text-tricomaster-green mb-4" />,
       titulo: "Equipe Especializada",
-      texto: "Médicos tricologistas e profissionais altamente experientes, dedicados ao seu tratamento."
+      texto: "Médicos Tricologistas e profissionais altamente qualificados, experientes, e dedicados ao seu tratamento."
     },
     {
       icon: <Clock className="h-12 w-12 text-tricomaster-green mb-4" />,
