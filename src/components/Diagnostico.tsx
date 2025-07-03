@@ -39,7 +39,7 @@ const Diagnostico = () => {
           <div className="lg:w-1/2 order-1 lg:order-2">
             <div className="relative">
               <img
-                src="/tricomaster/lovable-uploads/f9baba4b-9555-4d95-9151-c3304b8e64a4.png"
+                src="/uploads/f9baba4b-9555-4d95-9151-c3304b8e64a4.png"
                 alt="Especialista realizando diagnóstico capilar com equipamento avançado"
                 className="w-full h-auto rounded-lg shadow-lg object-cover"
               />

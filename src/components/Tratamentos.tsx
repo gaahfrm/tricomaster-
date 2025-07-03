@@ -7,32 +7,32 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const tratamentos = [
   {
-    imagem: "/tricomaster/lovable-uploads/Tratamento-mesoterapia-capilar.webp",
+    imagem: "/uploads/Tratamento-mesoterapia-capilar.webp",
     nome: "Mesoterapia Capilar",
     descricao: "A mesoterapia capilar é um tratamento não cirúrgico que envolve aplicação de substâncias nutritivas diretamente no couro cabeludo, que estimula o crescimento de novos fios, fortalece, e melhora a saúde do couro cabeludo, indicado na queda de cabelo, calvície, alopecias e afinamento dos fios."
   },
   {
-    imagem: "/tricomaster/lovable-uploads/Tratamento-laserterapia-capilar.webp",
+    imagem: "/uploads/Tratamento-laserterapia-capilar.webp",
     nome: "Laserterapia Capilar",
     descricao: "A Laserterapia capilar é um tratamento não invasivo, indolor, realizado através de  luzes de baixa intensidade para estimular o crescimento dos fios, melhorar a circulação no couro cabeludo e fortalecer os fios. É indicada para queda de cabelo, calvície, alopecias, psoríase e dermatite seborreica."
   },
   {
-    imagem: "/tricomaster/lovable-uploads/Tratamento-mmp.webp",
+    imagem: "/uploads/Tratamento-mmp.webp",
     nome: "MMP - Microinfusão de Medicamentos",
     descricao: "O método MMP Capilar é uma técnica que aplica medicamentos diretamente no couro cabeludo por meio de microagulhas, estimulando o crescimento e melhorando a densidade dos fios. Indicado no pós transplante capilar, queda de cabelo, afinamento, calvície e alopecias. É uma opção não invasiva e eficaz para melhora da saúde capilar."
   },
   {
-    imagem: "/tricomaster/lovable-uploads/3dd7de97-aff9-40af-88e2-a4bdef2699ca.png",
+    imagem: "/uploads/3dd7de97-aff9-40af-88e2-a4bdef2699ca.png",
     nome: "Drug Delivery Digital",
     descricao: "Tecnologia inovadora que permite a aplicação precisa de ativos no couro cabeludo através de microagulhas, com controle digital da profundidade e velocidade, garantindo 100% de aproveitamento das medicações.Procedimento indolor e indicado para queda de cabelo, calvície e alopecias, o D& D estimula o crescimento capilar e melhora a densidade dos fios."
   },
   {
-    imagem: "/tricomaster/lovable-uploads/23d96741-a2b9-47e8-b97a-d5cc123f8545.png",
+    imagem: "/uploads/23d96741-a2b9-47e8-b97a-d5cc123f8545.png",
     nome: "Ozonioterapia e Terapias Capilares",
     descricao: "A Ozonioterapia capilar é uma técnica utilizada para oxigenar o couro cabeludo, ativar a circulação e combater inflamações, promovendo um couro cabeludo saudável para o crescimento dos fios. Combinada com outras terapias capilares personalizadas, ajuda a tratar queda de cabelo, oleosidade, caspa, dermatite seborreica, psoriase, calvície e alopecias, fortalecendo e nutrindo a fibra capilar. Resultados visíveis com tratamentos naturais, eficazes e seguros."
 },
   {
-    imagem: "/tricomaster/lovable-uploads/ba.webp",
+    imagem: "/uploads/ba.webp",
     nome: "Transplante Capilar",
     descricao: "Procedimento cirúrgico que transplanta unidades foliculares da área doadora para regiões calvas. Técnica moderna (FUE), minimamente invasiva, com resultados naturais e permanentes. Indicado para calvície, alopecias e falhas capilares. Recupere o seu cabelo com segurança e eficácia."
   }

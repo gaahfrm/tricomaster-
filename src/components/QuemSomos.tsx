@@ -5,22 +5,22 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 
 const images = [
-  "/tricomaster//lovable-uploads/Clinica (1).jpg",
-  "/tricomaster//lovable-uploads/Clinica (2).jpg",
-  "/tricomaster//lovable-uploads/Clinica (3).jpg",
-  "/tricomaster//lovable-uploads/Clinica (4).jpg",
-  "/tricomaster//lovable-uploads/Clinica (5).jpg",
-  "/tricomaster//lovable-uploads/Clinica (6).jpg",
-  "/tricomaster//lovable-uploads/Clinica (7).jpg",
-  "/tricomaster//lovable-uploads/Clinica (8).jpg",
-  "/tricomaster//lovable-uploads/Clinica (9).jpg",
-  "/tricomaster//lovable-uploads/Clinica (10).jpg",
-  "/tricomaster//lovable-uploads/Clinica (11).jpg",
-  "/tricomaster//lovable-uploads/Clinica (12).jpg",
-  "/tricomaster//lovable-uploads/Clinica (13).jpg",
-  "/tricomaster//lovable-uploads/Clinica (14).jpg",
-  "/tricomaster//lovable-uploads/Clinica (15).jpg",
-  "/tricomaster//lovable-uploads/Clinica (16).jpg",
+  "/uploads/Clinica (1).jpg",
+  "/uploads/Clinica (2).jpg",
+  "/uploads/Clinica (3).jpg",
+  "/uploads/Clinica (4).jpg",
+  "/uploads/Clinica (5).jpg",
+  "/uploads/Clinica (6).jpg",
+  "/uploads/Clinica (7).jpg",
+  "/uploads/Clinica (8).jpg",
+  "/uploads/Clinica (9).jpg",
+  "/uploads/Clinica (10).jpg",
+  "/uploads/Clinica (11).jpg",
+  "/uploads/Clinica (12).jpg",
+  "/uploads/Clinica (13).jpg",
+  "/uploads/Clinica (14).jpg",
+  "/uploads/Clinica (15).jpg",
+  "/uploads/Clinica (16).jpg",
 ];
 
 const QuemSomos = () => {

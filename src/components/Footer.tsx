@@ -11,7 +11,7 @@ const Footer = () => {
           {/* Logo e texto */}
           <div className="col-span-1 md:col-span-2">
             <img
-              src="/tricomaster/lovable-uploads/logo.png"
+              src="/uploads/logo.png"
               alt="Tricomaster Logo"
               className="h-16 mb-4"
             />

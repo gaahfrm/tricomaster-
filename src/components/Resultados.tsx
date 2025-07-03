@@ -5,57 +5,111 @@ import { Card, CardContent } from "@/components/ui/card";
 const depoimentos = [
 	{
 		id: 1,
-		imagemAntes: "/tricomaster/lovable-uploads/Antes-1.webp",
-		imagemDepois: "/tricomaster/lovable-uploads/Depois-1.webp",
+		imagemAntes: "/uploads/Antes-1.jpg",
+		imagemDepois: "/uploads/Depois-1.jpg",
 		texto: "A equipe da TricoMaster mudou minha vida. Depois de anos tentando diversos tratamentos sem sucesso.",
-		nome: "Paciente 1",
+		nome: "Arnaldo dos Santos",
 		tempo: "Paciente há 1 ano",
-		iniciais: "PC"
+		iniciais: "AS"
 	},
 	{
 		id: 2,
-		imagemAntes: "/tricomaster/lovable-uploads/Antes-2.webp",
-		imagemDepois: "/tricomaster/lovable-uploads/Depois-2.webp",
-		texto: "A equipe da TricoMaster mudou minha vida. Depois de anos tentando diversos tratamentos sem sucesso.",
-		nome: "Paciente 2",
+		imagemAntes: "/uploads/Antes-2.jpg",
+		imagemDepois: "/uploads/Depois-2.jpg",
+		texto: "Estou super feliz, todo o tratamento superou minhas expectativas, desde a médica até sua equipe, além de serem muito  profissionais fazem um atendimento humanizado, o que foi de extrema importância no meu caso de queda tão intensa.",
+		nome: "Elaine Cristina Chaves",
 		tempo: "Paciente há 6 meses",
-		iniciais: "PC"
+		iniciais: "EC"
 	},
 	{
 		id: 3,
-		imagemAntes: "/tricomaster/lovable-uploads/Antes-3.webp",
-		imagemDepois: "/tricomaster/lovable-uploads/Depois-3.webp",
-		texto: "Após apenas três sessões de tratamento, percebi uma redução significativa na queda de cabelo. Estou muito satisfeito com os resultados!",
-		nome: "Anderson",
+		imagemAntes: "/uploads/Antes-3.jpg",
+		imagemDepois: "/uploads/Depois-3.jpg",
+		texto: "recuperei o volume e a vitalidade dos meus fios graças ao tratamento da Tricomaster. Profissionalismo e acolhimento em cada etapa!",
+		nome: "Maria Helena Santos",
 		tempo: "Paciente há 1 ano",
-		iniciais: "AD"
+		iniciais: "MH"
 	},
 	{
 		id: 4,
-		imagemAntes: "/tricomaster/lovable-uploads/Antes-4.webp",
-		imagemDepois: "/tricomaster/lovable-uploads/Depois-4.webp",
-		texto: "Após apenas três sessões de tratamento, percebi uma redução significativa na queda de cabelo. Estou muito satisfeito com os resultados!",
-		nome: "Paciente 3",
+		imagemAntes: "/uploads/Antes-4.jpg",
+		imagemDepois: "/uploads/Depois-4.jpg",
+		texto: "Sofri por muito tempo com uma doença capilar sem saber o que era. Passei por diversos médicos mas não conseguiam fechar um diagnóstico. Foi na Tricomaster, indicada por uma amiga, que descobri a alopecia cicatricial. Iniciei o tratamento, e minha doença  hoje está estável. Sou imensamente grata por toda a dedicação e cuidado de todos.",
+		nome: "Gisela Garcia",
 		tempo: "Paciente há 1 ano",
-		iniciais: "PC"
+		iniciais: "GG"
 	},
 	{
 		id: 5,
-		imagemAntes: "/tricomaster/lovable-uploads/Antes-5.webp",
-		imagemDepois: "/tricomaster/lovable-uploads/Depois-5.webp",
-		texto: "Após apenas três sessões de tratamento, percebi uma redução significativa na queda de cabelo. Estou muito satisfeito com os resultados!",
-		nome: "Paciente ",
+		imagemAntes: "/uploads/Antes-5.jpg",
+		imagemDepois: "/uploads/Depois-5.jpg",
+		texto: "Enfrentar o câncer foi traumático, e perder o cabelo piorou ainda mais. Dois anos após a quimioterapia cheguei à Tricomaster sem esperança, mas fui surpreendida por um tratamento excelente e uma equipe acolhedora. Hoje, com meu cabelo de volta sou imensamente grata.",
+		nome: "Vera Lúcia",
 		tempo: "Paciente há 1 ano",
-		iniciais: "PC"
+		iniciais: "VL"
 	},
 	{
 		id: 6,
-		imagemAntes: "/tricomaster/lovable-uploads/Antes-6.webp",
-		imagemDepois: "/tricomaster/lovable-uploads/Depois-6.webp",
-		texto: "Após apenas três sessões de tratamento, percebi uma redução significativa na queda de cabelo. Estou muito satisfeito com os resultados!",
-		nome: "Paciente ",
+		imagemAntes: "/uploads/Antes-6.jpg",
+		imagemDepois: "/uploads/Depois-6.jpg",
+		texto: "Encontrei a Tricomaster pesquisando na internet após sofrer com a queda de cabelo assustadora causada pela dengue. A consulta foi excelente, com explicações claras. Decidi iniciar o tratamento na clínica e meu cabelo melhorou muito. A Tricomaster fez toda a diferença na minha vida.",
+		nome: "Valeria Carla ",
 		tempo: "Paciente há 1 ano",
-		iniciais: "PC"
+		iniciais: "VC"
+	},
+	{
+		id: 7,
+		imagemAntes: "/uploads/Antes-7.jpg",
+		imagemDepois: "/uploads/Depois-7.jpg",
+		texto: "Estou super feliz, todo o tratamento superou minhas expectativas, desde a médica até sua equipe, além de serem muito  profissionais fazem um atendimento humanizado, o que foi de extrema importância no meu caso de queda tão intensa.",
+		nome: "Jorge Mendonça",
+		tempo: "Paciente há 1 ano",
+		iniciais: "JM"
+	},
+	{
+		id: 8,
+		imagemAntes: "/uploads/Antes-8.jpg",
+		imagemDepois: "/uploads/Depois-8.jpg",
+		texto: "Com 72 anos, voltei a ter cabelos cheios após o tratamento capilar da Tricomaster. Equipe maravilhosa e resultado surpreendente!",
+		nome: "José Pedro Almeida",
+		tempo: "Paciente há 1 ano",
+		iniciais: "JP"
+	},
+	{
+		id: 9,
+		imagemAntes: "/uploads/Antes-9.jpg",
+		imagemDepois: "/uploads/Depois-9.jpg",
+		texto: "Eu sofria com calvície hereditária e o transplante na Tricomaster foi perfeito. Equipe atenciosa e resultado natural. Autoestima lá em cima!",
+		nome: "Antônio Silva",
+		tempo: "Paciente há 1 ano",
+		iniciais: "AS"
+	},
+	{
+		id: 10,
+		imagemAntes: "/uploads/Antes-10.jpg",
+		imagemDepois: "/uploads/Depois-10.jpg",
+		texto: "Meu cabelo estava muito fino e, com as sessões de mesoterapia e orientação nutricional, recuperei volume e confiança. Atendimento impecável!",
+		nome: "Francisco Oliveira",
+		tempo: "Paciente há 1 ano",
+		iniciais: "FO"
+	},
+	{
+		id: 11,
+		imagemAntes: "/uploads/Antes-11.jpg",
+		imagemDepois: "/uploads/Depois-11.jpg",
+		texto: "Depois da menopausa, meu cabelo ficou ralo. O cronograma personalizado da Tricomaster trouxe força e brilho de volta aos fios. Obrigada, Dra. Luciane!",
+		nome: "Teresa Nunes",
+		tempo: "Paciente há 1 ano",
+		iniciais: "TN"
+	},
+	{
+		id: 12,
+		imagemAntes: "/uploads/Antes-12.jpg",
+		imagemDepois: "/uploads/Depois-12.jpg",
+		texto: "Fiz mesoterapia e suplementação na clínica e já vejo novos fios crescendo. Ambiente acolhedor e equipe dedicada, recomendo muito!",
+		nome: "Helena Carvalho",
+		tempo: "Paciente há 1 ano",
+		iniciais: "HC"
 	}
 ];
 
@@ -85,11 +139,11 @@ const Resultados = () => {
 					</p>
 				</div>
 
-				<div className="flex flex-col lg:flex-row gap-8 items-start">
+				<div className="flex flex-col lg:flex-row gap-4 items-start">
 					{/* Carrossel no mobile */}
 					<div className="lg:w-2/3">
 						<div className="bg-white p-6 rounded-xl shadow-lg transition-all duration-300 relative">
-							<div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+							<div className="flex flex-col sm:flex-row gap-1 justify-center items-center">
 								<div className="flex-1 flex flex-col items-center">
 									<span className="text-gray-500 font-semibold mb-2">Antes</span>
 									<img
@@ -108,9 +162,9 @@ const Resultados = () => {
 								</div>
 							</div>
 							<div className="mt-6 text-center">
-								{/*<p className="text-gray-600 italic mb-4">"{imagemAtual.texto}"</p>*/}
+								<p className="text-gray-600 italic mb-4">"{imagemAtual.texto}"</p>
 								<h4 className="text-lg font-medium">{imagemAtual.nome}</h4>
-								<p className="text-sm text-gray-500">{imagemAtual.tempo}</p>
+								{/*<p className="text-sm text-gray-500">{imagemAtual.tempo}</p>*/}
 							</div>
 							{/* Botões de navegação do carrossel */}
 							<div className="absolute top-1/2 left-4 transform -translate-y-1/2 lg:hidden">
@@ -135,7 +189,7 @@ const Resultados = () => {
 						{depoimentos.map((depoimento) => (
 							<Card
 								key={depoimento.id}
-								className={`bg-gray-100 p-4 rounded-lg border-l-4 ${imagemAtual.id === depoimento.id ? 'border-tricomaster-green bg-gray-200' : 'border-gray-300'} shadow-md cursor-pointer transition-all duration-200 hover:shadow-lg`}
+								className={`bg-gray-100 p-3 rounded-lg border-l-4 ${imagemAtual.id === depoimento.id ? 'border-tricomaster-green bg-gray-200' : 'border-gray-300'} shadow-md cursor-pointer transition-all duration-200 hover:shadow-lg`}
 								onClick={() => setImagemAtual(depoimento)}
 							>
 								<CardContent className="p-0">
@@ -146,7 +200,7 @@ const Resultados = () => {
 										</div>
 										<div className="ml-3">
 											<h4 className="text-sm font-medium">{depoimento.nome}</h4>
-											<p className="text-xs text-gray-500">{depoimento.tempo}</p>
+											{/*<p className="text-xs text-gray-500">{depoimento.tempo}</p>*/}
 										</div>
 									</div>
 								</CardContent>
