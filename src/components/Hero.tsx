@@ -36,7 +36,7 @@ const Hero = () => {
       </div>
       <div className="w-full md:w-1/2 h-full mt-8 md:mt-0"> {/* Adicionado margem superior no mobile */}
         <img
-          src="/uploads/perdendo-cabelo.webp"
+          src="/uploads/calvicie-masculina.jpeg"
           alt="Perdendo Cabelo"
           className="w-full h-full object-cover rounded-tl-[180px]" // Arredondado apenas o canto superior esquerdo
         />
