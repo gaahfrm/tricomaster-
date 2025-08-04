@@ -37,12 +37,17 @@ const CTA = () => {
             </div>
           </div>
           <div className='justify-center flex pt-5'>
-            <a href="https://api.whatsapp.com/send?phone=5511930731230&text=Ol%C3%A1%20tenho%20uma%20duvida" target="_blank" rel="noopener noreferrer">
-              <Button className="btn-primary bg-tricomaster-green hover:bg-tricomaster-darkgreen text-lg mt-10">
-                <FontAwesomeIcon icon={faWhatsapp} size='3x' color="whaite" />
-                AGENDE SUA CONSULTA
-              </Button>
-            </a>
+            <div className="w-full flex flex-col items-center">
+              <p className="text-lg text-tricomaster-gray mb-4 font-semibold">
+                Chega de sofrer com queda de cabelo, calvície ou baixa autoestima. Dê o primeiro passo para recuperar sua confiança e ter cabelos saudáveis de verdade!
+              </p>
+              <a href="https://api.whatsapp.com/send?phone=5511930731230&text=Ol%C3%A1%20tenho%20uma%20duvida" target="_blank" rel="noopener noreferrer">
+                <Button className="btn-primary bg-tricomaster-green hover:bg-tricomaster-darkgreen text-lg mt-2">
+                  <FontAwesomeIcon icon={faWhatsapp} size='3x' color="whaite" />
+                  AGENDE SUA CONSULTA
+                </Button>
+              </a>
+            </div>
           </div>
         </div>
       </div>

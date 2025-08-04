@@ -9,32 +9,32 @@ const tratamentos = [
   {
     imagem: "/uploads/Tratamento-mesoterapia-capilar.webp",
     nome: "Mesoterapia Capilar",
-    descricao: "A mesoterapia capilar é um tratamento não cirúrgico que envolve aplicação de substâncias nutritivas diretamente no couro cabeludo, que estimula o crescimento de novos fios, fortalece, e melhora a saúde do couro cabeludo, indicado na queda de cabelo, calvície, alopecias e afinamento dos fios."
+    descricao: "Sofrendo com queda ou afinamento dos fios? A mesoterapia entrega nutrientes direto no couro cabeludo, estimulando o crescimento e fortalecendo os cabelos. Ideal para quem já tentou de tudo e não vê resultado."
   },
   {
     imagem: "/uploads/Tratamento-laserterapia-capilar.webp",
     nome: "Laserterapia Capilar",
-    descricao: "A Laserterapia capilar é um tratamento não invasivo, indolor, realizado através de  luzes de baixa intensidade para estimular o crescimento dos fios, melhorar a circulação no couro cabeludo e fortalecer os fios. É indicada para queda de cabelo, calvície, alopecias, psoríase e dermatite seborreica."
+    descricao: "Cansado de ver o cabelo cair? A laserterapia é indolor e estimula o crescimento dos fios, melhora a circulação e fortalece o couro cabeludo. Para quem busca solução sem dor e sem cirurgia."
   },
   {
     imagem: "/uploads/Tratamento-mmp.webp",
     nome: "MMP - Microinfusão de Medicamentos",
-    descricao: "O método MMP Capilar é uma técnica que aplica medicamentos diretamente no couro cabeludo por meio de microagulhas, estimulando o crescimento e melhorando a densidade dos fios. Indicado no pós transplante capilar, queda de cabelo, afinamento, calvície e alopecias. É uma opção não invasiva e eficaz para melhora da saúde capilar."
+    descricao: "Perdendo densidade ou falhando após transplante? O MMP aplica medicamentos direto no couro cabeludo, aumentando a densidade e estimulando novos fios. Para quem quer resultado rápido e seguro."
   },
   {
     imagem: "/uploads/3dd7de97-aff9-40af-88e2-a4bdef2699ca.png",
     nome: "Drug Delivery Digital",
-    descricao: "Tecnologia inovadora que permite a aplicação precisa de ativos no couro cabeludo através de microagulhas, com controle digital da profundidade e velocidade, garantindo 100% de aproveitamento das medicações.Procedimento indolor e indicado para queda de cabelo, calvície e alopecias, o D& D estimula o crescimento capilar e melhora a densidade dos fios."
+    descricao: "Nada funciona para sua queda? O Drug Delivery Digital aplica ativos com precisão e controle digital, potencializando o tratamento e estimulando o crescimento capilar. Procedimento indolor para quem busca tecnologia e resultado."
   },
   {
     imagem: "/uploads/23d96741-a2b9-47e8-b97a-d5cc123f8545.png",
     nome: "Ozonioterapia e Terapias Capilares",
-    descricao: "A Ozonioterapia capilar é uma técnica utilizada para oxigenar o couro cabeludo, ativar a circulação e combater inflamações, promovendo um couro cabeludo saudável para o crescimento dos fios. Combinada com outras terapias capilares personalizadas, ajuda a tratar queda de cabelo, oleosidade, caspa, dermatite seborreica, psoriase, calvície e alopecias, fortalecendo e nutrindo a fibra capilar. Resultados visíveis com tratamentos naturais, eficazes e seguros."
-},
+    descricao: "Couro cabeludo inflamado, oleoso ou com caspa? A ozonioterapia oxigena, ativa a circulação e combate inflamações, fortalecendo os fios e promovendo crescimento saudável. Para quem quer tratar a raiz do problema."
+  },
   {
     imagem: "/uploads/ba.webp",
     nome: "Transplante Capilar",
-    descricao: "Procedimento cirúrgico que transplanta unidades foliculares da área doadora para regiões calvas. Técnica moderna (FUE), minimamente invasiva, com resultados naturais e permanentes. Indicado para calvície, alopecias e falhas capilares. Recupere o seu cabelo com segurança e eficácia."
+    descricao: "Calvície avançada ou falhas que incomodam? O transplante capilar recupera áreas calvas com técnica moderna e resultados naturais. Para quem quer voltar a ter cabelo de verdade."
   }
 ];
 

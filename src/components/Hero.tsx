@@ -6,40 +6,28 @@ import { ArrowRight, Bold } from 'lucide-react';
 
 const Hero = () => {
   return (
-    <section className="flex flex-col md:flex-row" // Alterado para coluna no mobile
+    <section
+      className="relative flex items-center justify-center min-h-[500px] md:min-h-[600px] w-full"
       style={{
-        paddingTop: "150px",
-        backgroundImage: "linear-gradient(to bottom, rgb(212 212 212),#7CA82F)", // Alterado para degradê  
+        backgroundImage: "url('/uploads/calvicie-masculina.jpeg')",
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
       }}
     >
-      <div className="container-section relative z-10 flex flex-col justify-center gap-10 text-center md:text-left">
-        <div>
-          <h1 className="text-4xl lg:text-5xl font-500 text-white mb-4 ">
-            TRICOMASTER <br />
-            <span className="text-4xl md:text-5xl font-bold">
-              MEDICINA CAPILAR
-            </span>
-          </h1>
-          <p className="mb-6 text-white max-w-xl font-medium drop-shadow-lg mx-auto md:mx-0">
-            RECUPERE SUA CONFIANÇA, VENÇA A CALVÍCIE E A QUEDA DE CABELO COM SOLUÇÕES QUE FAZEM A DIFERENÇA
-          </p>
-
-          <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
-            <a href="https://api.whatsapp.com/send?phone=5511930731230&text=Ol%C3%A1%20tenho%20uma%20duvida" target="_blank" rel="noopener noreferrer">
-              <Button className="btn-primary bg-tricomaster-green hover:bg-tricomaster-darkgreen text-lmd ">
-                <FontAwesomeIcon icon={faWhatsapp} size="3x" color="white" />
-                AGENDE SUA CONSULTA
-              </Button>
-            </a>
-          </div>
-        </div>
-      </div>
-      <div className="w-full md:w-1/2 h-full mt-8 md:mt-0"> {/* Adicionado margem superior no mobile */}
-        <img
-          src="/uploads/calvicie-masculina.jpeg"
-          alt="Perdendo Cabelo"
-          className="w-full h-full object-cover rounded-tl-[180px]" // Arredondado apenas o canto superior esquerdo
-        />
+      <div className="container-section relative z-10 flex flex-col justify-center items-center gap-10 text-center px-4 py-20 md:py-32 bg-black/60 rounded-xl max-w-2xl mx-auto">
+        <h1 className="text-3xl md:text-5xl font-bold text-white mb-6 drop-shadow-lg">
+          Sofrendo com queda de cabelo ou calvície?
+        </h1>
+        <p className="mb-8 text-white text-lg md:text-xl font-medium drop-shadow-lg">
+          Recupere sua autoestima com tratamentos personalizados, tecnologia avançada e mais de 10 anos de experiência médica em tricologia. Resultados reais para quem busca solução definitiva!
+        </p>
+        <a href="https://api.whatsapp.com/send?phone=5511930731230&text=Quero%20saber%20sobre%20tratamento%20capilar" target="_blank" rel="noopener noreferrer">
+          <Button className="btn-primary bg-tricomaster-green hover:bg-tricomaster-darkgreen text-xl font-bold py-4 px-8 rounded-full shadow-lg animate-pulse flex items-center gap-3">
+            <FontAwesomeIcon icon={faWhatsapp} size="2x" color="white" />
+            QUERO RECUPERAR MEU CABELO
+          </Button>
+        </a>
       </div>
     </section>
   );

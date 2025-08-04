@@ -38,11 +38,11 @@ const Index = () => {
       <Navbar />
       <main>
         <Hero />
-        <QuemSomos />
-        <PorqueEscolher />
-        <Diagnostico />
+         <Diagnostico />
+         <Resultados />
+         <PorqueEscolher />
         <Tratamentos />
-        <Resultados />
+        <QuemSomos />
         <CTA />
       </main>
       <Footer />
