@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 
 const images = [
+  "/uploads/Design sem nome.png",
   "/uploads/Clinica (1).jpg",
   "/uploads/Clinica (2).jpg",
   "/uploads/Clinica (3).jpg",
@@ -43,7 +44,7 @@ const QuemSomos = () => {
               <img
                 src={images[current]}
                 alt={`Slide ${current + 1}`}
-                className="w-full h-auto rounded-lg shadow-lg object-cover transition-all duration-300"
+                className="w-full max-h-80 md:max-h-[28rem] lg:max-h-[36rem] rounded-lg shadow-lg object-contain transition-all duration-300 bg-white"
               />
               {/* Carousel controls */}
               <button onClick={prevSlide} className="absolute top-1/2 left-2 transform -translate-y-1/2 bg-white/80 rounded-full p-2 shadow hover:bg-white">
@@ -75,7 +76,7 @@ const QuemSomos = () => {
               A solução para sua Queda de Cabelo está na TricoMaster Medicina Capilar
             </h3>
             <p className="text-gray-700">
-              A TricoMaster Medicina Capilar é a sua melhor escolha quando se trata de  problemas capilares. Compreendemos que esse desafio pode afetar não apenas a sua aparência física, como seu bem estar emocional e sua autoestima.
+              A TricoMaster Medicina Capilar gerenciada pela Doutora Luciane Pisanelli é a sua melhor escolha quando se trata de  problemas capilares. Compreendemos que esse desafio pode afetar não apenas a sua aparência física, como seu bem estar emocional e sua autoestima.
             </p>
             <p className="text-gray-700">
               Nossa clínica é referência em Tricologia Médica, com uma experiência sólida de mais de uma década. A equipe é formada por médicos especialistas em Tricologia, altamente qualificados, experientes,  dedicados e interessados em proporcionar o melhor tratamento para o seu caso.
